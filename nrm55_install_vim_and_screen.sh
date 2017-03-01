@@ -17,4 +17,9 @@ ln -s vimrc/.vimrc ~/.vimrc
 
 echo "Creating ~/tmp dir for vim's swap files"
 mkdir ~/tmp
+
+echo "Adding the screenx alias to .bashrc"
+echo "alias screenx='screen -RaAd -S x'" >> ~/.bashrc
+source ~/.bashrc
+
 echo "Done done"
